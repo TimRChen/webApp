@@ -11,6 +11,7 @@ let handle = {};
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/upload"] = requestHandlers.upload;
+handle["/show"] = requestHandlers.show;
 // handle对象为route中对应的http请求路径与其对应方法
 // 即将不同的URL映射到相应的处理程序中
 

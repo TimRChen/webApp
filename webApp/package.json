@@ -1,0 +1,23 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "webApp need module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimRChen/webApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimRChen/webApp/issues"
+  },
+  "homepage": "https://github.com/TimRChen/webApp#readme",
+  "dependencies": {
+    "formidable": "^1.1.1"
+  }
+}

@@ -3,10 +3,10 @@
  * @file NodeJs 路由
  */
 
-let route = (handle, pathname, response) => {
+let route = (handle, pathname, response, postData) => {
     console.log('About to route a request for ' + pathname);
     if (typeof handle[pathname] === 'function') {
-        return handle[pathname](response);
+        return handle[pathname](response, postData);
     } else {
         console.log('No request handle for ' + pathname);
         response.writeHead(404, {"Content-Type":"text/plain"});
