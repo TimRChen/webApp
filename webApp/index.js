@@ -1,6 +1,6 @@
 /**
  * @author <huangjiandong>
- * @file 用于调用其他模块
+ * @file 用于配合route查找并调用其他模块的方法
  */
 
 let server = require('./server.js');
